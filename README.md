@@ -1,4 +1,19 @@
-Task: Building a Role-Based Access Control System with Real-Time Notifications
+Task: Building a Role-Based Access Control System with Real-Time Notifications<br>
+
+Command to run<br>
+1. Clone the repository:<br>
+2. cd SECURECONNECT<br>
+3. npm i<br>
+4. add env file<br>
+PORT=3000<br>
+JWT_SECRET=your_jwt_secret<br>
+JWT_EXPIRES_IN=1h<br>
+REFRESH_TOKEN_SECRET=your_refresh_token_secret<br>
+MONGODB_URI="your mongodb string"<br>
+5. start a server= npm run dev<br>
+6. swagger link= http://localhost:3000/api-docs/<br>
+
+
 
 Build a RESTful API that allows users to register, login, and access resources based on their roles (admin, user). The system should also support real-time notifications using WebSockets.
 
@@ -38,13 +53,4 @@ Documentation
 Document the API endpoints using Swagger or a similar tool.
 Include instructions on how to set up the project, run the tests, and start the server.
 
-Deliverables:
-A GitHub repository with a `README.md` file containing setup instructions.
-The fully functional Node.js application.
-A Postman collection or Swagger documentation for testing the API.
-Unit tests with at least 80% code coverage.
 
-
-Deadline:
-
-Best time to submit the task is within 48hrs of receiving the task Description.
